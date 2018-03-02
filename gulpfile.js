@@ -11,10 +11,10 @@ var gulp = require('gulp'),
 gulp.task('styles', function() {
 	return sass('src/scss/app.scss', { style: 'expanded' })
 		.pipe(autoprefixer('last 3 versions'))
-		.pipe(gulp.dest('dist/css/'))
+		.pipe(gulp.dest('public/css/'))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(cleancss())
-		.pipe(gulp.dest('dist/css/'))
+		.pipe(gulp.dest('public/css/'))
 		.pipe(notify({ message: '👍 Styles task complete!' }));
 });
 

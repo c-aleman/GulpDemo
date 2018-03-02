@@ -1,5 +1,255 @@
 // Type Styles
 
 html {
-    color: $font-color-default;
+    
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+.monte{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.leading-none{
+	line-height: 1;
+}
+
+.leading-tight{
+	line-height: 1.3;
+}
+
+.leading-regular{
+	line-height: 1.6;
+}
+
+.leading-big{
+	line-height: 1.9;
+}
+
+.no-underline{
+	text-decoration: none;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.over-line{
+	text-decoration: overline;
+}
+
+.line-through{
+	text-decoration: line-through;
+}
+
+.list-reset{
+	list-style: none;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-xs{
+	font-size: .75em;
+}
+
+.text-sm{
+	font-size: 1em;
+}
+
+.text-md{
+	font-size: 1.33em;
+}
+
+.text-lg{
+	font-size: 2.369em;
+}
+
+.text-xl{
+	font-size: 4.209em;
+}
+
+.text-light{
+	font-weight: 300;
+}
+
+.text-regular{
+	font-weight: 400;
+}
+
+.text-medium{
+	font-weight: 500;
+}
+
+.text-semi-bold{
+	font-weight: 600;
+}
+
+.text-bold{
+	font-weight: 700;
+}
+
+.text-xtra-bold{
+	font-weight: 900;
+}
+
+.text-black{
+	color: #181e23;
+}
+
+.text-grey{
+	color: #52565e;
+}
+
+.text-grey-light{
+	color: #85888e;
+}
+
+.text-grey-lighter{
+	color: #a8aaae;
+}
+
+.text-grey-lightest{
+	color: #dcddde;
+}
+
+.text-pink{
+	color: #fd5c64;
+}
+
+.text-pink-light{
+	color: #FD7C83;
+}
+
+.text-pink-lighter{
+	color: #FD9DA2;
+}
+
+.text-pink-lightest{
+	color: #FEBDC1;
+}
+
+.text-blue{
+	color: #204056;
+}
+
+.text-blue-light{
+	color: #4C6677;
+}
+
+.text-blue-lighter{
+	color: #798C99;
+}
+
+.text-blue-lightest{
+	color: #A5B2BB;
+}
+
+.text-orange{
+	color: #ff8833;
+}
+
+.text-orange-light{
+	color: #FF9F5B;
+}
+
+.text-orange-lighter{
+	color: #FFB784;
+}
+
+.text-orange-lightest{
+	color: #FFCFAD ;
+}
+
+.text-red{
+	color: #ed1c16;
+}
+
+.text-red-light{
+	color: #F04A44;
+}
+
+
+.text-red-lighter{
+	color: #F47773;
+}
+
+
+.text-red-lightest{
+	color: #F7A4A1;
+}
+
+.text-green{
+	color: #34a853;
+}
+
+.text-green-light{
+	color: #5CB975;
+}
+
+.text-green-lighter{
+	color: #85CA97;
+}
+
+.text-green-lightest{
+	color: 	#ADDCBA;
+}
+
+.text-purple{
+	color: #554488;
+}
+
+.text-purple-light{
+	color: #77699F;
+}
+
+.text-purple-lighter{
+	color: #998EB7;
+}
+
+.text-purple-lightest{
+	color: #BBB4CF;
+}
+
+.text-yellow{
+	color: #fdc800;
+}
+
+.text-yellow-light{
+	color: #FDD133;
+}
+
+.text-yellow-lighter{
+	color: #FDDC66;
+}
+
+.text-yellow-lightest{
+	color: #FEE899;
+}
+.text-white{
+	color: #ffffff;
+}
+
+.tracking-close{
+	letter-spacing: 0rem;
+}
+
+.tracking-clean{
+	letter-spacing: .04rem;
+}
+
+.tracking-loose{
+	letter-spacing: 1rem;
 }

@@ -1,0 +1,39 @@
+.container{
+	max-width: 100%
+}
+
+@media only screen and (min-device-width : 768px){
+
+			.container{
+				max-width: 768px;
+			}
+
+			.md-container{
+				max-width: 480px;
+			}
+
+		}
+
+
+
+@media only screen and (min-device-width : 768px){
+			.md-container{
+				max-width: 768px;
+			}
+
+
+
+
+
+
+}
+
+
+@media only screen  and (min-width : 1224px){
+			.lg-container{
+				max-width: 1366px;
+			}
+
+}
+
+

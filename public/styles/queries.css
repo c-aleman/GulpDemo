@@ -1,0 +1,117 @@
+
+/*iphone-portrait and landscape-sm*/
+@media only screen and (min-device-width : 320px){
+			
+
+			.sm-container{
+				max-width: 480px;
+			}
+
+			.sm-hide{
+				display: none;
+			}
+
+			.sm-inline{
+				display: inline;
+			}
+
+			.sm-inline-block{
+				display: inline-block;
+			}
+			.sm-bg-red{
+				background-color: red;
+			}
+
+
+
+}
+
+
+/*ipads-portrait and landscape-md*/
+@media only screen and (min-device-width : 768px){
+
+			.container{
+				max-width: 768px;
+			}
+
+			.md-container{
+				max-width: 480px;
+			}
+
+			.md-hide{
+				display: none;
+			}
+
+			.md-inline{
+				display: inline;
+			}
+
+			.md-inline-block{
+				display: inline-block;
+			}
+			.md-block{
+				display: block;
+			}
+
+
+	
+				
+
+
+}
+
+/*desktops and laptops-lg*/
+@media only screen  and (min-width : 1224px){
+
+			.container{
+				max-width: 1366px;
+			}
+
+			.lg-container{
+				max-width: 480px;
+			}
+
+			.lg-hide{
+				display: none;
+			}
+
+			.lg-inline{
+				display: inline;
+			}
+
+			.lg-inline-block{
+				display: inline-block;
+			}
+
+
+
+
+
+}
+
+/*xtra large screens-xl*/
+@media only screen  and (min-width : 1824px){
+
+			.container{
+				max-width: 1400px;
+			}
+
+			.xl-container{
+				max-width: 480px;
+			}
+
+			.xl-hide{
+				display: none;
+			}
+
+			.xl-inline{
+				display: inline;
+			}
+
+			.xl-inline-block{
+				display: inline-block;
+			}
+
+
+
+}

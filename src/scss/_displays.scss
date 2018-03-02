@@ -1,0 +1,92 @@
+.appear-none{
+	appearance: none;
+}
+.hide{
+	display: none;
+}
+
+.inline{
+	display: inline;
+}
+
+.inline-block{
+	display: inline-block;
+}
+.block{
+	display: block;
+}
+
+.block{
+	display: inline-block;
+}
+
+
+.overflow-hidden{
+	overflow: hidden;
+}
+
+@media only screen and (min-device-width : 320px){
+			
+
+			.sm-container{
+				max-width: 480px;
+			}
+
+			.sm-hide{
+				display: none;
+			}
+
+			.sm-inline{
+				display: inline;
+			}
+
+			.sm-inline-block{
+				display: inline-block;
+			}
+			.sm-bg-red{
+				background-color: red;
+			}
+
+
+
+		}
+
+@media only screen and (min-device-width : 768px){
+			.md-hide{
+				display: none;
+			}
+
+			.md-inline{
+				display: inline;
+			}
+
+			.md-inline-block{
+				display: inline-block;
+			}
+			.md-block{
+				display: block;
+			}
+
+
+
+}
+
+
+@media only screen  and (min-width : 1224px){
+			.lg-hide{
+				display: none;
+			}
+
+			.lg-inline{
+				display: inline;
+			}
+
+			.lg-inline-block{
+				display: inline-block;
+			}
+
+			
+	
+
+
+}
