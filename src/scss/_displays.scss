@@ -24,6 +24,12 @@
 .overflow-hidden{
 	overflow: hidden;
 }
+.y-scroll{
+	overflow-y: scroll;
+}
+.x-of-none{
+	overflow-x: hidden;
+}
 
 @media only screen and (min-device-width : 320px){
 			

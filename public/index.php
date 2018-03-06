@@ -4,7 +4,7 @@
 	<header class="bg-pink">
 		
 		<nav class="flex lg-container mx-auto">
-			<h1 class="ml text-regular">Snackpack</h1>
+			<h1 class="ml text-regular"><a class="no-underline text-white" href="index.php">Snackpack</a></h1>
 			<ul class="flex items-center list-reset ml-auto">
 				<li class=""><a href="#" class="ml no-underline"></a>Link 1</li>
 				<li class=""><a href="#" class="ml no-underline"></a>Link 2</li>
@@ -81,6 +81,10 @@
 			<input class="border-none rounded" type="text">
 			<input class="md-block mt-3 rounded border-none px-5 p-2 bg-blue text-white" type="submit">
 		</form>
+	</div>
+	<div class="p-2 bg-blue-light border-left mb-5">
+		<div class="text-white">Be careful walking across the brige!</div>
+		
 	</div>
 
 	

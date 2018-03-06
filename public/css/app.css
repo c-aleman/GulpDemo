@@ -995,6 +995,10 @@ body {
   border-style: dotted;
 }
 
+.border-left {
+  border-left: 7px solid #204056;
+}
+
 .box-shadow {
   box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, 0.1);
 }
@@ -1534,6 +1538,14 @@ body {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.y-scroll {
+  overflow-y: scroll;
+}
+
+.x-of-none {
+  overflow-x: hidden;
 }
 
 @media only screen and (min-device-width: 320px) {

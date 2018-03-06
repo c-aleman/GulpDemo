@@ -8,6 +8,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Roboto:300,400,500,700" rel="stylesheet">
 	
 	<link rel="stylesheet" href="../css/app.css">
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 	
 	
 
