@@ -2,14 +2,11 @@
 	max-width: 100%
 }
 
-@media only screen and (min-device-width : 768px){
+@media only screen and (min-device-width : 320px){
 
-			.container{
-				max-width: 768px;
-			}
 
-			.md-container{
-				max-width: 480px;
+			.sm-container{
+				max-width: 320px;
 			}
 
 		}
