@@ -16,11 +16,6 @@
 	display: block;
 }
 
-.block{
-	display: inline-block;
-}
-
-
 .overflow-hidden{
 	overflow: hidden;
 }
@@ -89,6 +84,10 @@
 
 			.lg-inline-block{
 				display: inline-block;
+			}
+
+			.lg-block{
+				display: block;
 			}
 
 			

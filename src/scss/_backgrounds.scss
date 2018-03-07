@@ -1,5 +1,8 @@
 body{
-	background-color:#F8FAFC;
+	background-color:#f9fafb;
+}
+.bg-hero{
+	background: url(https://images.unsplash.com/photo-1493134799591-2c9eed26201a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8fe9893cbf297598290eb9dc4b0aa6c7&auto=format&fit=crop&w=2850&q=80) center center no-repeat;
 }
 .bg-transparent{
 	background-color: transparent;
@@ -54,3 +57,84 @@ body{
 .bg-blue-lightest{
 	background-color: #A5B2BB;
 }
+
+.bg-brand-blue{
+	background-color: #095280;
+}
+
+.bg-brand-blue-light{
+	background-color: #3A7499; 
+}
+
+.bg-brand-blue-lighter{
+	background-color: #6B97B2; 
+}
+
+.bg-brand-blue-lightest{
+	background-color: #9CB9CC; 
+}
+
+.bg-brand-blue-dark{
+	background-color: #084973; 
+}
+
+.bg-brand-blue-darker{
+	background-color: #063959; 
+}
+
+.bg-brand-blue-darkest{
+	background-color: #042940; 
+}
+
+.hover-bg-brand-blue:hover{
+	background-color: #095280;
+}
+
+.hover-bg-brand-blue-light:hover{
+	background-color: #3A7499; 
+}
+
+.hover-bg-brand-blue-lighter:hover{
+	background-color: #6B97B2; 
+}
+
+.hover-bg-brand-blue-lightest:hover{
+	background-color: #9CB9CC; 
+}
+
+.hover-bg-brand-blue-dark:hover{
+	background-color: #084973; 
+}
+
+.hover-bg-brand-blue-darker:hover{
+	background-color: #063959; 
+}
+
+.hover-bg-brand-blue-darkest:hover{
+	background-color: #042940; 
+}
+
+.bg-cover{
+	background-size: cover;
+}
+
+.bg-inherit{
+	background-size: inherit;
+}
+
+.bg-auto{
+	background-size: auto;
+}
+
+.bg-contain{
+	background-size: contain;
+}
+
+.bg-initial{
+	background-size: initial;
+}
+.bg-brand-blue-gr{
+background: linear-gradient(to bottom, rgba(9,82,128,1) 0%,rgba(67,134,180,1) 50%,rgba(125,185,232,1) 100%);
+
+}
+
