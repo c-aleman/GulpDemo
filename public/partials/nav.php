@@ -1,4 +1,4 @@
-<header id="header" class="bg-brand-blue bg-multiply bg-iso w-full">
+<header id="header" class="bg-brand-blue-light bg-multiply w-full sticky">
 	<div class="md-container md-p-3 lg-container md-flex md-items-center md-justify-between mx-auto">
 		<h1 class="ml text-regular md-block">
 			<a class="no-underline text-white" href="../index.php">Snackpack</a>

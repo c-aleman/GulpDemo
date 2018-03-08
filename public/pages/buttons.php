@@ -6,7 +6,7 @@
 	
 	<div class="flex">
 		
-		<div class="hide md-block mx  bg-grey-lightest flex-col list-reset lg-w-1/4 h-auto border-box py">
+		<div class="hide md-block mx flex-col list-reset lg-w-1/4 h-auto border-box py">
 			
 			
 			<?php include '../partials/sideNav.php';?>

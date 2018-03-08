@@ -2,7 +2,7 @@
 
 
 	<?php include 'partials/nav.php';?>
-	<div class="flex items-end h-90v bg-hero bg-cover">
+	<div class="flex items-end h-90v bg-iso bg-cover bg-muiltiply">
 		<div class="p-5">
 			<h1 class="text-regular text-xl text-white">Snackpack</h1>
 			<p class="text-white">Fully Responsive HTML and CSS Component library using utility classes.</p>

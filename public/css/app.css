@@ -1511,7 +1511,7 @@ body {
 }
 
 .bg-iso {
-  background: url(http://www.tokkoro.com/picsup/2903573-apophysis-isometric-tesselation-cube-fractal-triangle-pattern-geometry-green-bright___abstract-wallpapers.jpg);
+  background: url(../images/bg.jpg) center center no-repeat;
 }
 
 .bg-transparent {
@@ -1651,7 +1651,7 @@ body {
 }
 
 .bg-multiply {
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
 }
 
 .rounded-none {
@@ -2584,6 +2584,13 @@ body {
 
 .x-of-none {
   overflow-x: hidden;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 @media only screen and (min-device-width: 320px) {
