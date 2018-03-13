@@ -5,7 +5,7 @@ html {
 }
 
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -153,6 +153,18 @@ p{
 	color: #FEBDC1;
 }
 
+.text-pink-dark{
+	color: #CA4950;
+}
+
+.text-pink-darker{
+	color: #97373C;
+}
+
+.text-pink-darkest{
+	color: #652428;
+}
+
 .text-blue{
 	color: #204056;
 }
@@ -253,6 +265,36 @@ p{
 .text-white{
 	color: #ffffff;
 }
+
+.text-brand-blue{
+	color: #095280;
+}
+
+.text-brand-blue-light{
+	color: #3A7499;
+}
+
+.text-brand-blue-lighter{
+	color: #6B97B2;
+}
+
+.text-brand-blue-lightest{
+	color: #9CB9CC;
+}
+
+.text-brand-blue-dark{
+	color: #084973;
+}
+
+.text-brand-blue-darker{
+	color: #063959;
+}
+
+.text-brand-blue-darkest{
+	color: #042940;
+}
+
+
 
 .tracking-close{
 	letter-spacing: 0rem;

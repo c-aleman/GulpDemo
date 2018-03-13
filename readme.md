@@ -1,4 +1,4 @@
-# Gulp SCSS Demo
+# SnackPack
 
 Use this as a starter project to compile SASS/SCSS using Gulp, a task automater. Don&rsquo;t be afraid to make mistakes or to experiment &mdash; you can always clone this repo and start again.
 

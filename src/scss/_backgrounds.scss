@@ -27,6 +27,24 @@ body{
 	background-color: #dcddde;
 }
 
+.bg-grey-dark{
+	background-color: #41444B;
+}
+
+.bg-grey-darker{
+	background-color: #313338;
+}
+
+.bg-grey-darkest{
+	background-color: #202225;
+}
+
+.hover-bg-grey-lightest:hover{
+	background-color:#dcddde;
+	transition: 0.7s ease;
+	border-radius: .25rem;
+}
+
 .bg-pink{
 	background-color: #fd5c64;
 }
@@ -42,6 +60,20 @@ body{
 .bg-pink-lightest{
 	background-color: #FEBDC1;
 }
+
+.bg-pink-dark{
+	background-color: #CA4950;
+}	
+
+.bg-pink-darker{
+	background-color: #97373C;
+}
+
+.bg-pink-darkest{
+	background-color: #652428;
+}
+
+
 .hover-bg-pink:hover{
 	background-color:#fd5c64;
 }
@@ -88,6 +120,118 @@ body{
 
 .bg-brand-blue-darkest{
 	background-color: #042940; 
+}
+
+.bg-orange{
+	background-color: #FF8833;
+}
+
+.bg-orange-light{
+	background-color: #FF9F5B;
+}
+
+.bg-orange-lighter{
+	background-color: #FFB784;
+}
+
+.bg-orange-lightest{
+	background-color: #FFCFAD;
+}
+
+.bg-orange-dark{
+	background-color: #CC6C28;
+}
+
+.bg-orange-darker{
+	background-color: #99511E;
+}
+
+.bg-orange-darkest{
+	background-color: #663614;
+}
+
+.bg-red{
+	background-color: #ed1c16;
+}
+
+.bg-red-light{
+	background-color: #F04A44;
+}
+
+.bg-red-lighter{
+	background-color: #F47773;
+}
+
+.bg-red-lightest{
+	background-color: #F7A4A1;
+}
+
+.bg-red-dark{
+	background-color: #BD1711;
+}
+
+.bg-red-darker{
+	background-color: #8E110D;
+}
+
+.bg-red-darkest{
+	background-color: #5E0B08;
+}
+
+.bg-green{
+	background-color: #34a853;
+}
+
+.bg-green-light{
+	background-color: #5CB975;
+}
+
+.bg-green-lighter{
+	background-color: #85CA97;
+}
+
+.bg-green-lightest{
+	background-color: #ADDCBA;
+}
+
+.bg-green-dark{
+	background-color: #298642;
+}
+
+.bg-green-darker{
+	background-color: #1F6431;
+}
+
+.bg-green-darkest{
+	background-color: #144321;
+}
+
+.bg-purple{
+	background-color: #554488;
+}
+
+.bg-purple-light{
+	background-color: #77699F;
+}
+
+.bg-purple-lighter{
+	background-color: #998EB7;
+}
+
+.bg-purple-lightest{
+	background-color: #BBB4CF;
+}
+
+.bg-purple-dark{
+	background-color: #44366C;
+}
+
+.bg-purple-darker{
+	background-color: #332851;
+}
+
+.bg-purple-darkest{
+	background-color: #221B36;
 }
 
 .hover-bg-brand-blue:hover{

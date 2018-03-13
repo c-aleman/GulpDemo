@@ -13,10 +13,11 @@
 
 		</div>
 
-		<div class="w-full py mb-8">
+		<div class="w-full py">
+			
 			<div class="mx-auto px-4 lg-w-2/3 border-box">
-				<h1 class="text-black text-lg tracking-clean text-regular">Cards</h1>
-				<h3 class="text-grey-light text-regular tracking-clean">Simple, easy to style Cards</h3>
+				<h1 class="text-black text-lg tracking-clean text-regular">Setting up Snackpack</h1>
+				<h3 class="text-grey-light text-regular tracking-clean">Snackpack is a node based</h3>
 				<p class="text-black text-sm leading-regular tracking-clean">Cards are built with utility classes with a mobile first approach to create simple and elegant cards that respond to any screen.
 
 				</p>
@@ -34,14 +35,7 @@
 
 						</div>
 
-						<div class="rounded oveflow-hidden md-w-1/3 h-16 mb-8 mt-8">
-							
-							<img class="w-full block h-auto" src="https://images.unsplash.com/photo-1477588993959-f93989518546?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f202072b2c89bc74aa099c64a247a72b&auto=format&fit=crop&w=934&q=80" alt="">
-							<div>
-								Snack
-							</div>
-							
-						</div>
+						
 					
 						
 			</div>
