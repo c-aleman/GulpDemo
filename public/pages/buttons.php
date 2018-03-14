@@ -15,8 +15,10 @@
 
 		<div class="w-full py">
 			<div class="mx-auto px-4 md-w-3/4 lg-w-3/4 border-box mb-8">
-				<h1 class="text-black text-lg tracking-clean text-bold">Buttons</h1>
-				<h3 class="text-grey-light text-regular tracking-clean">Simple, easy to style buttons</h3>
+				<div class="bb-light-blue">
+					<h1 class="text-black text-lg tracking-clean text-bold">Buttons</h1>
+				</div>
+				<h3 class="mt-8 text-grey-light text-regular tracking-clean">Simple, easy to style buttons</h3>
 				<p class="text-black text-sm leading-regular tracking-clean">Style your button anyway you want to. Apply stylings to buttons any way you want to with easy to use utility classes for a complete customization at hand.
 
 

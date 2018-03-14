@@ -18,9 +18,10 @@
 			<div class="mx-auto px-4 md-w-2/3 lg-w-2/3 border-box">
 
 				
-
-				<h1 class="text-black text-lg tracking-clean text-regular">Colors</h1>
-				<h3 class="text-grey-light text-regular tracking-clean">Color to your liking</h3>
+				<div class="bb-light-blue">
+					<h1 class="text-black text-lg tracking-clean text-bold">Colors</h1>
+				</div>
+				<h3 class="mt-8 text-grey-light text-regular tracking-clean">Color to your liking</h3>
 				<p class="text-black text-sm leading-regular tracking-clean">Snackpack comes loaded with 7 colors and each of those
 					colors come with different values. Choosing colors is an important part of the design process, we've carefully
 					selected these colors to start off with. Future customization is being developed.

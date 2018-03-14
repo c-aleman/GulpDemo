@@ -1,10 +1,10 @@
-.cool-link {
+.under-link {
     display: inline-block;
     color: #000;
     text-decoration: none;
 }
 
-.cool-link::after {
+.under-link::after {
     content: '';
     display: block;
     width: 0;
@@ -14,7 +14,7 @@
     margin-top: .5rem;
 }
 
-.cool-link:hover::after {
+.under-link:hover::after {
     width: 100%;
     //transition: width .3s;
 }

@@ -346,6 +346,14 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.italics {
+  font-style: italic;
+}
+
+.leading-up {
+  line-height: .8;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -386,6 +394,18 @@ p {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
 .text-xs {
   font-size: .75em;
 }
@@ -404,6 +424,10 @@ p {
 
 .text-xl {
   font-size: 4.209em;
+}
+
+.text-giant {
+  font-size: 10em;
 }
 
 .text-light {
@@ -1446,6 +1470,150 @@ p {
   margin-bottom: 8rem;
 }
 
+.nega-ml {
+  margin-left: -.5rem;
+}
+
+.nega-mt {
+  margin-top: -.5rem;
+}
+
+.nega-mr {
+  maring-right: -.5rem;
+}
+
+.nega-mb {
+  margin-right: -.5rem;
+}
+
+.nega-ml-1 {
+  margin-left: -1rem;
+}
+
+.nega-mt-1 {
+  margin-top: -1rem;
+}
+
+.nega-mr-1 {
+  maring-right: -1rem;
+}
+
+.nega-mb-1 {
+  margin-right: -1rem;
+}
+
+.nega-ml-2 {
+  margin-left: -1.5rem;
+}
+
+.nega-mt-2 {
+  margin-top: -1.5rem;
+}
+
+.nega-mr-2 {
+  maring-right: -1.5rem;
+}
+
+.nega-mb-2 {
+  margin-right: -1.5rem;
+}
+
+.nega-ml-3 {
+  margin-left: -2rem;
+}
+
+.nega-mt-3 {
+  margin-top: -2rem;
+}
+
+.nega-mr-3 {
+  maring-right: -2rem;
+}
+
+.nega-mb-3 {
+  margin-right: -2rem;
+}
+
+.nega-ml-4 {
+  margin-left: -2.5rem;
+}
+
+.nega-mt-4 {
+  margin-top: -2.5rem;
+}
+
+.nega-mr-4 {
+  maring-right: -2.5rem;
+}
+
+.nega-mb-4 {
+  margin-right: -2.5rem;
+}
+
+.nega-ml-5 {
+  margin-left: -3rem;
+}
+
+.nega-mt-5 {
+  margin-top: -3rem;
+}
+
+.nega-mr-5 {
+  maring-right: -3rem;
+}
+
+.nega-mb-5 {
+  margin-right: -3rem;
+}
+
+.nega-ml-6 {
+  margin-left: -4rem;
+}
+
+.nega-mt-6 {
+  margin-top: -4rem;
+}
+
+.nega-mr-6 {
+  maring-right: -4rem;
+}
+
+.nega-mb-6 {
+  margin-right: -4rem;
+}
+
+.nega-ml-7 {
+  margin-left: -5rem;
+}
+
+.nega-mt-7 {
+  margin-top: -5rem;
+}
+
+.nega-mr-7 {
+  maring-right: -5rem;
+}
+
+.nega-mb-7 {
+  margin-right: -5rem;
+}
+
+.nega-ml-8 {
+  margin-left: -7rem;
+}
+
+.nega-mt-8 {
+  margin-top: -7rem;
+}
+
+.nega-mr-8 {
+  maring-right: -7rem;
+}
+
+.nega-mb-8 {
+  margin-right: -7rem;
+}
+
 @media only screen and (min-device-width: 320px) {
   .sm-ml-auto {
     margin-right: .25rem;
@@ -1844,7 +2012,8 @@ p {
   }
 }
 body {
-  background-color: #f9fafb;
+  background-color: #f5f5f5;
+  padding-top: 5.7rem;
 }
 
 .bg-hero {
@@ -1857,6 +2026,10 @@ body {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-smoke {
+  background-color: #fefefe;
 }
 
 .bg-grey {
@@ -1891,6 +2064,7 @@ body {
   background-color: #dcddde;
   transition: 0.7s ease;
   border-radius: .25rem;
+  padding-right: 1rem;
 }
 
 .bg-pink {
@@ -2175,6 +2349,18 @@ body {
 
 .border-left {
   border-left: 7px solid #204056;
+}
+
+.border-top {
+  border-top: 1px solid #204056;
+}
+
+.border-right {
+  border-right: 1px solid #204056;
+}
+
+.bb-light-blue {
+  border-bottom: 1px solid #3A7499;
 }
 
 .box-shadow {
@@ -3305,13 +3491,13 @@ body {
   color: #042940;
 }
 
-.cool-link {
+.under-link {
   display: inline-block;
   color: #000;
   text-decoration: none;
 }
 
-.cool-link::after {
+.under-link::after {
   content: '';
   display: block;
   width: 0;
@@ -3321,6 +3507,16 @@ body {
   margin-top: .5rem;
 }
 
-.cool-link:hover::after {
+.under-link:hover::after {
   width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  border-radius: .25rem;
+}
+
+td {
+  padding: .5rem;
+  border-radius: .25rem;
 }
