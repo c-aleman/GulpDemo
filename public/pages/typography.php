@@ -11,6 +11,7 @@
 			
 			<?php include '../partials/sideNav.php';?>
 
+		</div>
 
 		<div class="w-full py">
 			<div class="mx-auto px-4 md-w-3/4 lg-w-3/4 border-box mb-8">
@@ -118,4 +119,7 @@
 
 		
 	</div>
+</div>
+</div>
+	<?php include '../partials/p_footer.php'; ?>
 <?php include '../partials/footer.php'; ?>

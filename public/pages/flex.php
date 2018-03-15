@@ -13,33 +13,62 @@
 
 		</div>
 
-		<div class="w-full py">
+		<div class="w-full py mb-8">
 			<div class="mx-auto px-4 md-w-3/4 lg-w-3/4 border-box mb-8">
 				<div class="bb-light-blue">
-					<h1 class="text-black text-lg tracking-clean text-bold">Flex-box Layout</h1>
+					<h1 class="text-brand-blue-dark text-lg tracking-clean text-bold">Flex-Box Layout</h1>
 				
 				</div>
 				<div class="big-mt-1">
 					<h3 class="text-md text-grey">Flex-Example</h3>
-					<p class="leading-regular tracking-clean">Use classes such as <code>text-thin, text-md, text-bold, text-semibold </code> to change the weight of the fonts.</p>
-					<div class="flex">
-						<div class="w-full bg-green p-3 items-center text-white text-center">
-							<div class="bg-blue p-4">w-full</div>
+					<p class="text-grey-dark leading-regular tracking-clean">Use classes such as <code class="bg-grey-lightest rounded p">flex, wrap, w-full, w-1/3, w-1/4, w-1/2</code> to create a responsive flex grid. Add margin and padding to the inner content to create gutter margins between flex items.</p>
+					
+					<div class="flex wrap roboto">
+						<div class="w-full bg-green items-center text-white text-center">
+							<div class="bg-blue mx my p-2">w-full</div>
 						</div>
 					</div>
-					<div class="flex">
+					
+					<div class="flex wrap roboto">
 
-						<div class="w-full md-w-1/3 text-center items-center p-3 bg-green text-white">
-							<div class="bg-blue p-4">w-1/3</div>
+						<div class="w-full md-w-1/3 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/3</div>
 						</div>
-						<div class="w-full md-w-1/3 text-center items-center p-3 bg-green text-white">
-							<div class="bg-blue p-4">w-1/3</div>
+						<div class="w-full md-w-1/3 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/3</div>
 						</div>
-						<div class="w-full md-w-1/3 text-center items-center p-3 bg-green text-white">
-							<div class="bg-blue p-4">w-1/3</div>
+						<div class="w-full md-w-1/3 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/3</div>
 						</div>
 						
 					</div>
+
+					<div class="flex roboto">
+						<div class="w-full md-w-1/2 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/2</div>
+						</div>
+						<div class="w-full md-w-1/2 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/2</div>
+						</div>
+
+					</div>
+					<div class="flex wrap roboto">
+						<div class="w-full md-w-1/4 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/4</div>
+						</div>
+						<div class="w-full md-w-1/4 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/4</div>
+						</div>
+						<div class="w-full md-w-1/4 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/4</div>
+						</div>
+						<div class="w-full md-w-1/4 text-center items-center bg-green text-white">
+							<div class="bg-blue mx p-2 my">w-1/4</div>
+						</div>
+
+					</div>
+					
+							<pre><code class="html x-of-none h-48 y-scroll rounded"><?php echo htmlspecialchars(file_get_contents('../partials/flex-example.php'), ENT_QUOTES); ?></code></pre>
 
 					
 				</div>
@@ -51,4 +80,7 @@
 
 		
 	</div>
+</div>
+</div>
+	<?php include '../partials/p_footer.php'; ?>
 <?php include '../partials/footer.php'; ?>

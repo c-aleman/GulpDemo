@@ -55,4 +55,6 @@
 
 		
 	</div>
+</div>
+	<?php include '../partials/p_footer.php'; ?>
 <?php include '../partials/footer.php'; ?>

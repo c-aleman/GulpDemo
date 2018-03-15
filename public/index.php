@@ -6,16 +6,22 @@
 		<div class="p-5">
 			<h1 class="text-regular text-xl text-white">Snackpack</h1>
 			<p class="text-white tracking-clean">Fully Responsive HTML and CSS Component library using utility classes.</p>
-			<button class="btn border-none border-box bg-brand-blue hover-bg-brand-blue-darker mr-3" action="#learn_more" method="get"><div class="p-2 text-white">Learn More</div></button>
+			<a href="#learn_more">
+				<button class="btn border-none border-box bg-brand-blue hover-bg-brand-blue-darker mr-3" action="#learn_more" method="get"><div class="p-2 text-white">Learn More</div></button>
+			</a>
 			<form class="inline" action="https://github.com/c-aleman/Snackpack" method="get" target="blank">
 			<button class="btn bg-transparent hover-bg-brand-blue bc-white border-box"><div class="text-white p-2">GitHub</div></button></form>
 		</div>
+
+		
 	</div>
-	<div class="mt-5 lg-container mx-auto">
+
+
+	<div  class="mt-5 lg-container mx-auto">
 	
 	
 	
-		<div class="flex">
+		<div class="flex ">
 		
 				<div class="hide md-block mx flex-col list-reset md-w-1/4 lg-w-1/4 h-auto border-box py">
 				
@@ -24,12 +30,14 @@
 
 				</div>
 			
-			<div class="w-full py">
+			<div" class="w-full py">
 					
 					<div class="mx-auto px-4 md-w-3/4 lg-w-3/4 mb-7">
 					
-						<h1 name="#learn_more" class="text-grey-darkest text-lg tracking-clean text-bold">What is Snackpack?</h1>
-						<h2 class="text-grey-light text-regular tracking-clean">Snackpack is an easy to use HTML and CSS component Library</h2>
+					<div id="learn_more" class="bb-light-blue">
+					<h1 id="" class="text-grey-darkest text-lg tracking-clean text-bold">What is Snackpack?</h1>
+					</div>
+						<h2 class="big-mt text-grey-light text-regular tracking-clean">Snackpack is an easy to use HTML and CSS component Library</h2>
 						<p class="text-grey-dark text-sm leading-regular tracking-clean">Snackpack is designed for a mobile first responsive enviornment. 
 						Simple and easy to use, Snackpack focuses on the design first with many options to create a visually captivating
 						layout and styles. Choose whatever you crave and start styling according to your appetite.
@@ -83,4 +91,5 @@
 	
 	
 </div>
+<?php include 'partials/p_footer.php'; ?>
 <?php include 'partials/footer.php'; ?>

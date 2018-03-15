@@ -672,6 +672,10 @@ p {
   padding: 0px auto;
 }
 
+.px {
+  padding: 0px .2rem;
+}
+
 .px-1 {
   padding: 0px .25rem;
 }
@@ -1218,6 +1222,11 @@ p {
 
 .my-auto {
   margin: auto 0px;
+}
+
+.m-none {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .my {
@@ -3397,6 +3406,10 @@ body {
 
 .hover-text-black:hover {
   color: #181e23;
+}
+
+.hover-text-grey-dark:hover {
+  color: #41444B;
 }
 
 .hover-text-grey:hover {
