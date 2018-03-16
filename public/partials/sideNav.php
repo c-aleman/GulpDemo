@@ -7,7 +7,7 @@
 				<li class="mb-5 hover-bg-grey-lightest py-1 px-1"><a class="no-underline text-grey-dark hover-text-blue text-sm" 
 					href="../pages/typography.php">Typography</a></li>
 				<li class="mb-5 hover-bg-grey-lightest py-1 px-1"><a class="no-underline text-grey-dark hover-text-blue text-sm" 
-					href="../spacing.php">Spacing</a></li>
+					href="../pages/spacing.php">Spacing</a></li>
 				<li class="mb-5 hover-bg-grey-lightest py-1 px-1"><a class="no-underline text-grey-dark hover-text-blue text-sm" 
 					href="../pages/flex.php">Flex</a></li>
 				<li class="mb-5 hover-bg-grey-lightest py-1 px-1"><a class="no-underline text-grey-dark hover-text-blue text-sm" 

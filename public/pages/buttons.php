@@ -28,7 +28,10 @@
 					
 
 						<h3 class="big-mt-1 text-regular text-md">Basic Buttons</h3>
+						<div class="flex justify-around bg-grey-lightest p-4 rounded">
 						<?php include '../partials/button.php';?>
+					</div>
+
 							<pre><code class="html text-sm x-of-none h-16 y-scroll rounded"><?php echo htmlspecialchars(file_get_contents('../partials/button.php'), ENT_QUOTES); ?></code></pre>
 
 						

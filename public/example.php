@@ -1,126 +1,118 @@
-<?php include 'partials/header.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-<header class="w-full bg-pink-light py-2">
+	<title>SnackPack</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,900|Roboto:300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,800" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../css/app.css">
+	<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<style>
+		body{
+			padding-top: 0;
+		}
+
+		#logo{
+			font-family: 'Shrikhand', cursive;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+<header class="w-full bg-brand-blue py-2 box-shadow">
 	<nav class="lg-container mx-auto justify-between flex items-center">
-		<a class="no-underline text-white text-lg text-semi-bold tracking-clean" href="#">Travel.io</a>
+		<a id="logo" class="no-underline text-white text-lg tracking-clean" href="#">SF Valley Press</a>
 		<ul class="list-reset flex">
 			<li>
-				<a class="no-underline text-white ml-3" href="">Deals</a>
+				<a class="no-underline text-white ml-3 under-link" href="">News</a>
 			</li>
 			<li>
-				<a class="no-underline text-white ml-3" href="">Locations</a>
+				<a class="no-underline text-white ml-3 under-link" href="">Music</a>
 			</li>
 			<li>
-				<a class="no-underline text-white ml-3" href="">About</a>
+				<a class="no-underline text-white ml-3 under-link" href="">Art</a>
 			</li>
 			<li>
-				<a class="no-underline text-white ml-3" href="">Contact</a>
+				<a class="no-underline text-white ml-3 under-link" href="">Classifieds</a>
 			</li>
 		</ul>
 	</nav>
 </header>
 <div class="flex items-end h-60v bg-hero bg-cover bg-muiltiply">
-		<div class="p-5">
-			<h1 class="text-regular text-xl text-white">Find local travel deals.</h1>
-			<p class="text-white">Take a trip to the wildest places.</p>
-			<button class="btn border-none border-box bg-pink hover-bg-brand-blue-darker mr-3"><div class="p-2 text-white">Learn More</div></button>
-			<form class="inline" action="https://github.com/c-aleman/Snackpack" method="get" target="blank">
+		<div class="p-5 flex">
+			<h1 id="logo" class="text-regular text-xl text-white ">Welcome to the Valley.</h1>
+			
+			
+			
 			
 		</div>
-	</div>
-		<div class="lg-container flex justify justify-around mx-auto items-center mt-8 wrap bg-pink-lightest p-3">
-				<h2>Stay Connected for the Latest deals <br><p class="tracking-clean text-xs text-light">Enter you email to receive updates on the latest places to travel, and the greatest deals</p></h2>
+</div>
 
-				<div>
-				<label class="block md-block mb-1" for="Username">Email</label>
-				<input class="h-8 block bg-grey-lighter border-none mb-3" type="text">
-				<button class="hover-bg-brand-blue-dark btn border-none bg-brand-blue md-block mb-2 rounded-md">
-					<div class="p text-white text-regular">Submit</div>
-				</button>
-				</div>
+<div class="w-full">
+		<div class=" lg-container mx-auto flex">
+
+			<a href="" class="no-underline"><div class="w-1/3 bg-red-dark hover-bg-brand-blue-dark">
+				<div class="p-3">
+					<div class="mb-4"><h3 class="text-white text-lg tracking-clean">Pacoima elects Board Member</h3></div>
+					<p class="text-light px-1 tracking-clean text-white leading-regular">The city of Pacoima elects a new board member to help with issues in education and shelter homes. The board member is expected to announce a new policy via Skype on tuesday.</p>
 				
+				</div></a>
 
 			</div>
 
+			<a href="" class="no-underline"><div class="w-1/3 bg-red-light hover-bg-brand-blue-dark">
+				<div class="p-3">
+					<div class="mb-4"><h3 class="text-white text-lg tracking-clean">North Hollywood Art School Re-opens</h3></div>
+				<p class="text-light px-1 tracking-clean text-white leading-regular">Local art school re-opens after students were told that theyre degrees were not longer valid. Students protest, faculty quits, chairs are thrown.</p>
+				</div></a>
 
-	<div class="lg-container mx-auto">
-		<div class="flex">
-			
-			<div class="lg-w-1/4 p-4">
-				
-				
 			</div>
 
-			<div class="lg-w-3/4 p-3">
-				<h3 class="ml-7 text-regular text-semi-bold">Recommended</h3>
-				<div class="flex items-center justify-around wrap">
+			<a href="" class="no-underline"><div class="w-1/3 bg-red-dark hover-bg-brand-blue-dark">
+				<div class="p-3">
+					<div class="text-light mb-4"><h3 class="text-white text-lg tracking-clean">Theatre sells $1 hot dogs on Tuesdays, hs!</h3></div>
+					<p class="px-1 tracking-clean text-white leading-regular">North Hollywood locals are in shock as hot dog prices drop to a dollar at the local theater. Some movie goers reported chewing bones in the hotdogs during a screening of COCO</p>
+				</div></a>
 
-				<div class="mt-5 mb-5 rounded overflow-hidden w-full md-w-1/4 lg-w-1/4 box-shadow">
-	
-					<img class="w-full" src="https://images.unsplash.com/photo-1503187680590-525b6e7a793f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1cf101b1c1b455c8571a3fac15d03339&auto=format&fit=crop&w=1566&q=80" 
-					alt="Mexico">
-
-				<div class="px-4 mt-4 text-medium tracking-clean">Mexico</div>
-					
-					<p class="px-4 pb-4 text-xs leading-regular text-light tracking-clean">
-					Lorem ipsum dolor sit amet. Sapiente animi ipsa suscipit, eum voluptates 
-				consequuntur provident, unde, tempora!</p>
-				<div class="pl-2">
-				<button class="hover-bg-brand-blue-dark btn border-none bg-brand-blue md-block mb-2 rounded-md">
-					<div class="p text-white text-xs">visit</div>
-				</button>
-				</div>
 
 				</div>
 
-				<div class="mt-5 mb-5 rounded overflow-hidden w-full md-w-1/4 lg-w-1/4 box-shadow">
-	
-					<img class="w-full" src="https://images.unsplash.com/photo-1467753795868-3a7ed75490db?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9161ca276b22c34e7fb3ef7f4170d0c0&auto=format&fit=crop&w=1963&q=80" 
-					alt="Vietnam">
 
-				<div class="px-4 mt-4 text-medium tracking-clean">Japan</div>
-					
-					<p class="px-4 pb-4 text-xs leading-regular text-light tracking-clean">
-					Lorem ipsum dolor sit amet. Sapiente animi ipsa suscipit, eum voluptates 
-				consequuntur provident, unde, tempora!</p>
-				<div class="pl-2">
-				<button class="hover-bg-brand-blue-dark btn border-none bg-brand-blue md-block mb-2 rounded-md">
-					<div class="p text-white text-xs">visit</div>
-				</button>
-				</div>
 
-				</div>
 
-				<div class="mt-5 mb-5 rounded overflow-hidden w-full md-w-1/4 lg-w-1/4 box-shadow">
-	
-					<img class="w-full" src="https://images.unsplash.com/photo-1504109586057-7a2ae83d1338?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b66e9d835de3873a86d1cec996a1af06&auto=format&fit=crop&w=2090&q=80" 
-					alt="Japan">
-
-				<div class="px-4 mt-4 text-medium tracking-clean">Vietnam</div>
-					
-					<p class="px-4 pb-4 text-xs leading-regular text-light tracking-clean">
-					Lorem ipsum dolor sit amet. Sapiente animi ipsa suscipit, eum voluptates 
-				consequuntur provident, unde, tempora!</p>
-				<div class="pl-2">
-				<button class="hover-bg-brand-blue-dark btn border-none bg-brand-blue md-block mb-2 rounded-md">
-					<div class="p text-white text-xs">visit</div>
-				</button>
-				</div>
-
-				</div>
-				</div>
-				
 			</div>
-			
 
-		</div>
+			<div class="w-full">
+				<div class="lg-container">
+					<h2 id="logo" class="text-center tracking-clean text-xl">San Fernando Valley Arts Festival</h2>
+					<div class="flex justify-between mx-auto lg-container md-container">
+						<i class="text-lg fas fa-paint-brush"></i>
+
+						<h4 class="text-center text-light text-md">Join us on Saturday for the annual SFV arts fest</h4>
+						<i class="text-lg fas fa-paint-brush"></i>
+
+
+					</div>
+					
+				</div>
+
+
+
+			</div>
 
 		
-
-
-
-
-
 	</div>
 
 
@@ -128,6 +120,12 @@
 
 
 
+	</div>
+	
+
+
+
+</div>
 
 
 
@@ -150,6 +148,9 @@
 
 
 
+
+
+</body>
 
 
 

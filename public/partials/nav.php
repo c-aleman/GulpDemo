@@ -24,7 +24,7 @@
 
 <ul class="md-flex md-items-center md-justify-end list-reset">
 	
-	<li class="text-white">
+	<li class="text-grey-darkest">
 		
 		<a href="index.php" class="text-black block md-inline md-ml-5 no-underline text-light under-link">
 		Documentation
@@ -33,7 +33,7 @@
 	
 	</li>
 	
-	<li class="text-white">
+	<li class="text-grey-darkest">
 		
 		<a href="https://github.com/c-aleman/Snackpack" 
 
@@ -44,7 +44,7 @@
 
 	</li>
 	
-	<li class="text-white">
+	<li class="text-grey-darkest">
 		
 		<a href="#" class="text-black block md-inline md-ml-5 no-underline text-light under-link">
 		
